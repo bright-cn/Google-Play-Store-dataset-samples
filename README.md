@@ -1,71 +1,68 @@
-# Google Play Store Dataset Sample
+# Google Play 商店数据集样本
 
-<h2>A sample dataset of 1,070 records</h2>
+<h2>包含 1,070 条记录的数据集样本</h2>
 
-<a href="https://brightdata.com/products/datasets/google-play-store">
-    <img src="https://github.com/luminati-io/Google-Play-Store-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+<a href="https://www.bright.cn/products/datasets/google-play-store">
+    <img src="https://github.com/luminati-io/Google-Play-Store-dataset-samples/blob/main/datasets-image.png" alt="Bright Data 数据集" />
 </a>
 
-This **Google Play Store Dataset Sample** includes **1,070 records** and was extracted using the **Bright Data API**.
+此 **Google Play 商店数据集样本**包含 **1,070 条记录**，通过 **Bright Data API** 提取。
 
-## Data Points
+## 数据字段
 
-| Field Name | Description |
+| 字段名 | 说明 |
 |------------|-------------|
-| `url` | The URL link to the app's page on the Google Play Store. |
-| `title` | The official title of the app as listed on the Google Play Store. |
-| `developer` | The name of the developer or company that created the app. |
-| `monetization_features` | Information about the app's monetization strategies, such as in-app purchases. |
-| `images` | URLs of images associated with the app, including screenshots and promotional images. |
-| `about` | Detailed description of the app, provided by the developer. |
-| `data_safety` | Information regarding the app's data safety and privacy practices. |
-| `rating` | The average user rating of the app, expressed as a numerical value. |
-| `number_of_reviews` | The total number of user reviews submitted for the app. |
-| `star_reviews` | Breakdown of user reviews by star rating (1 to 5 stars). |
-| `reviews` | Collection of user reviews and feedback about the app. |
-| `what_new` | Description of the latest updates or changes made to the app. |
-| `more_by_this_developer` | List of other apps available on Google Play Store by the same developer. |
-| `content_rating` | The app's content rating, indicating suitable age groups for use. |
-| `downloads` | The number of times the app has been downloaded from the Google Play Store. |
-| `play_on_pc` | Information on whether the app is compatible with PC platforms. |
-| `minimum_requirements` | System requirements needed to run the app effectively on devices. |
-| `country` | The country or region where the app is available or popular. |
-| `app_category` | The category or genre the app belongs to on the Google Play Store. |
-| `id` | Unique identifier for the app on the Google Play Store. |
-| `version` | The current version of the app available for download. |
-| `app_icon` | URL to the app's icon image used for branding and identification. |
-| `price` | The cost of purchasing the app, if it is a paid app. |
-| `currency` | The currency in which the app's price is listed. |
-| `developer_email` | Contact email for the app developer, typically for support or inquiries. |
+| `url` | 应用在 Google Play 商店中的页面链接。 |
+| `title` | 应用在 Google Play 商店中显示的正式名称。 |
+| `developer` | 创建该应用的开发者或公司名称。 |
+| `monetization_features` | 应用变现方式的信息，例如应用内购买。 |
+| `images` | 与应用相关的图片 URL，包括屏幕截图和宣传图片。 |
+| `about` | 开发者提供的应用详细介绍。 |
+| `data_safety` | 应用的数据安全与隐私保护措施相关信息。 |
+| `rating` | 应用的平均用户评分，以数值表示。 |
+| `number_of_reviews` | 用户为该应用提交的评价总数。 |
+| `star_reviews` | 按星级（1 至 5 星）划分的用户评价数量。 |
+| `reviews` | 用户对应用的评价和反馈。 |
+| `what_new` | 应用最新更新或变更的说明。 |
+| `more_by_this_developer` | 同一开发者在 Google Play 商店发布的其他应用列表。 |
+| `content_rating` | 应用的内容分级，表明适合使用的年龄群体。 |
+| `downloads` | 应用从 Google Play 商店下载的次数。 |
+| `play_on_pc` | 应用是否兼容 PC 平台的信息。 |
+| `minimum_requirements` | 在设备上运行该应用所需的系统要求。 |
+| `country` | 应用上架或受欢迎的国家或地区。 |
+| `app_category` | 应用在 Google Play 商店中所属的类别。 |
+| `id` | 应用在 Google Play 商店中的唯一标识符。 |
+| `version` | 当前可供下载的应用版本。 |
+| `app_icon` | 用于展示和识别应用的图标 URL。 |
+| `price` | 付费应用的购买价格。 |
+| `currency` | 应用标价使用的货币。 |
+| `developer_email` | 应用开发者的联系邮箱，通常用于支持咨询。 |
 
+## 使用场景
 
-## Use Cases
+### 1. 市场分析
+分析应用下载量、评分和评价趋势，识别热门类别及潜在市场空白。
 
-### 1. Market Analysis
-Analyze trends in app downloads, ratings, and reviews to identify popular categories and potential market gaps.
+### 2. 竞品对标
+比较应用功能和用户评价，开展竞品对标并改进产品。
 
-### 2. Competitor Benchmarking
-Compare app features and reviews to benchmark against competitors and improve app offerings.
+### 3. 用户情绪分析
+利用评价和评分数据分析用户情绪，了解用户满意度及有待改进的方面。
 
-### 3. User Sentiment Analysis
-Utilize reviews and ratings data to perform sentiment analysis, gaining insights into user satisfaction and areas for improvement.
+## 文件格式
 
-
-
-## File Formats
-
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+数据集提供多种格式：
+- **CSV**（本样本包含）
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
-- **Compressed (.gz)**
+- **压缩文件（.gz）**
 
-## Delivery Options
+## 交付方式
 
-- **Email**
-- **API Download**
+- **电子邮件**
+- **API 下载**
 - **Webhook**
 - **Amazon S3**
 - **Google Cloud Storage**
@@ -73,26 +70,26 @@ The dataset is available in multiple formats:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## 更新频率
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
-- **Daily**
-- **Weekly**
-- **Monthly**
-- **Quarterly**
-- **Custom schedules**
+数据集支持多种更新计划：
+- **单次**（一次性交付）
+- **每日**
+- **每周**
+- **每月**
+- **每季度**
+- **自定义更新计划**
 
-## Data Enrichment
+## 数据丰富化
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+可根据你的具体需求，为数据集补充更多数据字段。如需定制数据丰富化方案，请联系我们。
 
-**[Get the full Google Play Store dataset](https://brightdata.com/products/datasets/google-play-store)**
+**[获取完整的 Google Play 商店数据集](https://www.bright.cn/products/datasets/google-play-store)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## 面向研究人员和非政府组织的免费使用机会
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Bright Initiative 为从事环境与社会议题研究的学术研究人员、非政府组织（NGO）和非营利组织（NPO）免费提供 **[网页爬虫工具 API](https://www.bright.cn/products/web-scraper)** 和 **[即用型数据集](https://www.bright.cn/products/datasets)**。
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+请访问 [brightinitiative.com](https://brightinitiative.com) 申请免费使用。
